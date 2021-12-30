@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pokédex</title>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Pokédex</h1>
+    <h3>Enter a Pokémon name or number below.</h3>
+    <p id="invalid"></p>
+    <input id="pokemon" type="text">
+    <br><br>
+    <button>Submit</button>
+    <br><br>
+    <div id="photo"></div>
+    <h2 id="name"></h2>
+    <br>
+    <table>
+      <tr>
+        <td><div id="typeHeader"></div></td>
+        <td><div id="abilityHeader"></div></td>
+        <td><div id="statHeader"></div></td>
+      </tr>
+      <tr>
+        <td><div id="types"></div></td>
+        <td><div id="abilities"></div></td>
+        <td><div id="stats"></div></td>
+      </tr>
+    </table>
+    <br><br>
+    <table>
+      <tr>
+        <td><div id="moveHeader"></div></td>
+      </tr>
+      <tr>
+        <td><div id="moves"></div></td>
+      </tr>
+    </table>
+    <footer>
+      <p>CST 336 Internet Programming. 2021ⓒ Vickstrom.<br><em>This site is for academic purposes only.</em></p>
+      <img id="csumb" src="img/csumb.png" alt="csumb">
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
